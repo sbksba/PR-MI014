@@ -1,0 +1,64 @@
+== Participants : 1 ==
+
+   Benjamin BIELLE
+
+== Fichiers inclus ==
+
+   src/ftpClient.c
+	[Exercice 1]
+
+   src/ftpServerThread.c
+	[Exercice 1]
+   
+   src/ftpServerThread.h
+	[Exercice 1]
+
+   src/warmChat.c
+	[Exercice 2]
+
+   src/sonar.c
+	[Exercice 3]
+
+   src/ponger.c
+	[Exercice 3]
+
+   src/connectClient.c
+	[Exercice 4]
+   
+   src/connectServer.c
+	[Exercice 4]
+
+== Directives de 'Makefile' ==
+
+   all
+	Compile tous
+
+   directories
+	Création des répertoires temporaires s'ils n'existent pas déjà
+
+   proper
+	Suppression des fichiers temporaires (*~)
+	
+   clean
+	Suppression de tous les binaires, de tous les fichiers objet, et de toutes les bibliothèques
+
+   cleanall
+	Suppression des répertoires et fichiers temporaires
+
+  runFTPSERVERTHREAD runFTPCLIENT runWARMCHAT1 runWARMCHAT2 runSONAR runPONGER runCONNECTSERVER runCONNECTCLIENT1 runCONNECTCLIENT2 
+   	Lance les executables
+
+   bench
+       Benchmark du tme 
+
+== Etat d'avancement ==
+
+   L'exercice 1 - OK
+   
+   L'exercice 2 - OK
+
+   L'exercice 3 - OK
+
+   L'exercice 4 - OK
+   
+== Réponses ==

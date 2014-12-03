@@ -1,0 +1,92 @@
+== Participants : 1 ==
+
+   Benjamin BIELLE
+
+== Fichiers inclus ==
+
+   src/ex1.c
+	[Exercice 1]
+
+   src/feedbackES.c
+	[Exercice 2]
+
+   src/feedbackMAP.c
+	[Exercice 3]
+
+   src/ascentFile.c
+	[Exercice 4]
+
+   src/versusPOSIX.c
+	[Exercice 5]
+   
+   src/versusC.c
+	[Exercice 5]
+
+   src/extendGrep.c
+	[Exercice 6]
+
+   src/lseekInv.c
+	[Exercice 7]
+
+   src/preadInv.c
+	[Exercice 8]
+
+== Directives de 'Makefile' ==
+
+   all
+	Compile tous
+
+   directories
+	Création des répertoires temporaires s'ils n'existent pas déjà
+
+   proper
+	Suppression des fichiers temporaires (*~)
+	
+   clean
+	Suppression de tous les binaires, de tous les fichiers objet, et de toutes les bibliothèques
+
+   cleanall
+	Suppression des répertoires et fichiers temporaires
+
+   runEX1 runFEEDBACKES runFEEDBACKMAP runASCENTFILE runVERSUSPOSIX runVERSUSC runEXTENDGREP runLSEEKINV   runPREADINV
+   	Lance les executables
+
+   bench
+       Benchmark du tme 
+
+== Etat d'avancement ==
+
+   L'exercice 1 - OK
+   
+   L'exercice 2 - OK
+
+   L'exercice 3 - OK
+
+   L'exercice 4 - OK
+
+   L'exercice 5 - OK
+
+   L'exercice 6 - OK
+
+   L'exercice 7 - OK
+
+   L'exercice 8 - OK
+   
+== Réponses ==
+
+EXERCICE 1:
+-----------
+
+Les contenues possibles pour le fichier fich1 sont :
+- fghie123
+- hicde123
+- 45hie123
+- 453fghi
+- 45123hi
+- 45hi123
+
+EXERCICE 5:
+-----------
+
+Nous remarquons que pour la version standard (c.a.d fopen et fgetc) le processus qui affiche les
+caracteres est toujours le meme processus (ici le proc 0).

@@ -1,0 +1,7 @@
+#ifndef SKIPCLIENT_H
+#define SKIPCLIENT_H
+
+#define CONTENT_SIZE 1024
+#define NB_CONNECT_MAX 1453
+
+#endif

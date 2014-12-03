@@ -1,0 +1,62 @@
+== Participants : 1 ==
+
+   Benjamin BIELLE
+
+== Fichiers inclus ==
+
+   src/create.c
+	[Exercice 1]
+
+   src/exclusion.c
+	[Exercice 2]
+
+   src/daemon.c
+	[Exercice 3]
+
+   src/daemonBIS.c
+	[Exercice 4]
+
+   src/synchro
+	[Exercice 5]
+
+   src/broadcast
+	[Exercice 6]
+
+== Directives de 'Makefile' ==
+
+   all
+	Compile tous
+
+   directories
+	Création des répertoires temporaires s'ils n'existent pas déjà
+
+   proper
+	Suppression des fichiers temporaires (*~)
+	
+   clean
+	Suppression de tous les binaires, de tous les fichiers objet, et de toutes les bibliothèques
+
+   cleanall
+	Suppression des répertoires et fichiers temporaires
+
+   runCREATE runEXCLU runSYNCHRO runDAEMON runDAEMON2 runBROADCAST
+   	Lance les executables
+
+   bench
+       Benchmark du tme 
+
+== Etat d'avancement ==
+
+   L'exercice 1 - OK
+   
+   L'exercice 2 - OK
+
+   L'exercice 3 - OK
+
+   L'exercice 4 - OK
+
+   L'exercice 5 - OK
+
+   L'exercice 6 - OK
+   
+== Réponses ==

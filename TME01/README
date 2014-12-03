@@ -1,0 +1,70 @@
+== Participants : 1 ==
+
+   Benjamin BIELLE
+
+== Fichiers inclus ==
+
+   src/max_func.c
+   include/max_func.h
+   src/max_calcul.c
+	[Exercice 1]
+
+   src/nfork.c
+	[Exercice 2]
+
+   src/sleep.c
+	[Exercice 3]
+
+   src/chfork.c
+	[Exercice 4]
+
+   src/synchro
+	[Exercice 5]
+
+   src/kill
+	[Exercice 6]
+
+   src/signaux.c
+	[Exercice 7]
+
+== Directives de 'Makefile' ==
+
+   all
+	Renvoi vers 'runstack'
+
+   directories
+	Création des répertoires temporaires s'ils n'existent pas déjà
+
+
+   proper
+	Suppression des fichiers temporaires (*~)
+	
+   clean
+	Suppression de tous les binaires, de tous les fichiers objet, et de toutes les bibliothèques
+
+   cleanall
+	Suppression des répertoires et fichiers temporaires
+
+   runCALCUL runNFORK runSLEEP runCHFORK runSYNCHRO runKILL runSIGNAUX
+   	Lance les executables
+
+   bench
+       Benchmark du tme 
+
+== Etat d'avancement ==
+
+   L'exercice 1 - OK
+   
+   L'exercice 2 - OK
+
+   L'exercice 3 - OK
+
+   L'exercice 4 - OK
+
+   L'exercice 5 - OK
+
+   L'exercice 6 - OK
+   
+   L'exercice 7 - OK
+
+== Réponses ==
